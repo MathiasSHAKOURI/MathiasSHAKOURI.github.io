@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+}
+
+.body-header,
+.body-main,
+.body-footer {
+    height: calc(100% / 3);
+    width: 100%;
+}
+
+.body-header {
+    background-color: rgb(190, 190, 190);
+}
+
+.body-main {
+    background-color: rgb(160, 160, 160);
+}
+
+.body-footer {
+    background-color: rgb(130, 130, 130);
+}
