@@ -17,6 +17,7 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 .body-header {
@@ -46,4 +47,5 @@
     text-align: center;
     display: flex;
     align-items: center;
+    width: 50%;
 }
