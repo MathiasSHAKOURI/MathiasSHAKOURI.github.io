@@ -13,13 +13,13 @@
 }
 
 .body-header {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(23, 23, 23);
 }
 
 .body-main {
-    background-color: rgb(160, 160, 160);
+    background-color: rgb(232, 232, 232);
 }
 
 .body-footer {
-    background-color: rgb(130, 130, 130);
-}
+    background-color: rgb(23, 23, 23);
+    }
