@@ -7,7 +7,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0;
 }
 
 .body-header,
@@ -20,15 +19,27 @@
 
 .body-header {
     background-color: var(--c1);
-    color: var(--c2);
 }
 
 .body-main {
     background-color: var(--c2);
-    color: var(--c1);
 }
 
 .body-footer {
     background-color: var(--c1);
-    color: var(--c2);
     }
+
+.header-p,
+.footer-p {
+    color: var(--c2);
+}
+
+.main-p {
+    color: var(--c1);
+}
+
+.header-p,
+.footer-p,
+.main-p {
+    text-align: center;
+}
