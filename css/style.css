@@ -13,7 +13,7 @@
 .body-header,
 .body-main,
 .body-footer {
-    height: calc(100vh / 3);
+    /* height: calc(100vh / 3); */
     width: 100%;
     margin: 0 auto;
     display: flex;
