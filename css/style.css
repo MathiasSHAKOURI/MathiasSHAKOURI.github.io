@@ -1,3 +1,8 @@
+:root {
+    --c1: rgb(23, 23, 23);
+    --c2: rgb(232, 232, 232);
+}
+
 .body {
     display: flex;
     flex-wrap: wrap;
@@ -13,13 +18,13 @@
 }
 
 .body-header {
-    background-color: rgb(23, 23, 23);
+    background-color: var(--c1);
 }
 
 .body-main {
-    background-color: rgb(232, 232, 232);
+    background-color: var(--c2);
 }
 
 .body-footer {
-    background-color: rgb(23, 23, 23);
+    background-color: var(--c1);
     }
