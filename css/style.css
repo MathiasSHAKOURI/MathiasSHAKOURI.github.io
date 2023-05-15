@@ -15,16 +15,20 @@
 .body-footer {
     height: calc(100vh / 3);
     width: 100%;
+    margin: 0 auto;
 }
 
 .body-header {
     background-color: var(--c1);
+    color: var(--c2);
 }
 
 .body-main {
     background-color: var(--c2);
+    color: var(--c1);
 }
 
 .body-footer {
     background-color: var(--c1);
+    color: var(--c2);
     }
