@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .body-header,
