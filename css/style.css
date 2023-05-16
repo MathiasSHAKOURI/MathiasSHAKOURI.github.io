@@ -3,50 +3,125 @@
     --c2: rgb(250, 250, 250);
 }
 
+/* BODY */
+
 .body {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
 }
 
 .body-header,
-.body-main,
-.body-footer {
+.body-main {
     /* height: calc(100vh / 3); */
-    width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
 }
 
 .body-header {
-    background-color: var(--c1);
+    width: 35%;
+    background-color: var(--c2);
+    padding-left: 5rem;
 }
 
 .body-main {
+    width: 65%;
     background-color: var(--c2);
 }
 
-.body-footer {
-    background-color: var(--c1);
-    }
+/* HEADER */
 
-.header-p,
-.footer-p {
-    color: var(--c2);
-}
-
-.main-p {
+.header-p-1 {
     color: var(--c1);
 }
 
-.header-p,
-.footer-p,
-.main-p {
+.header-div-p2 {
+    color: var(--c2);
+}
+
+.header-p-1,
+.header-div-p2 {
+    text-align: center;
+    /* display: flex; */
+    width: 75%;
+    margin: 0 auto;
+}
+
+.header-p-1,
+.header-div-p2 {
+    border: 0.15rem solid var(--c1);
+}
+
+.header-p-1 {
+    margin-top: 50px;
+    height:45%;
+}
+
+.header-div-p2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    border-top: none;
+    height: fit-content;
+    background-color: var(--c1);
+}
+
+.header-p-2,
+.header-p-3 {
+    height: 45%;
+    margin: 0 1rem;
+    display: flex;
+    text-align: left;
+}
+
+.header-h2 {
+    color: var(--c2);
+    width:75%;
+    border-bottom: 0.15rem solid var(--c2);
+    padding-bottom: 1rem;
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.header-h2-contact {
+    margin-bottom: 1rem;
+}
+
+/* MAIN */
+
+.main-p-1,
+.main-p-2,
+.main-p-3,
+.main-p-4 {
+    color: var(--c1);
     text-align: center;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
+    margin: 1rem auto 2rem 4rem;
+    padding-bottom: 1rem;
 }
+
+.main-h2 {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    color: var(--c1);
+    border-bottom: 0.15rem solid var(--c1);
+    padding-bottom: 1rem;
+    margin: 0 auto 0 4rem;
+}
+
+.main-h2-experience {
+    margin-top: 4rem;
+}
+
+.main-p {
+    display: flex;
+    text-align: left;
+}
+
