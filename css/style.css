@@ -30,6 +30,7 @@
 .body-main {
     width: 65%;
     background-color: var(--c2);
+    padding-right: 5rem;
 }
 
 /* HEADER */
@@ -43,7 +44,8 @@
 }
 
 .header-p-1,
-.header-div-p2 {
+.header-div-p2,
+.header-div-1 {
     text-align: center;
     /* display: flex; */
     width: 75%;
@@ -51,13 +53,38 @@
 }
 
 .header-p-1,
-.header-div-p2 {
+.header-div-p2,
+.header-div-1-img {
     border: 0.15rem solid var(--c1);
 }
 
 .header-p-1 {
-    margin-top: 50px;
+    border-top:none;
+}
+
+.header-p-1,
+.header-div-1-img {
+    /* margin-top: 50px; */
     height:45%;
+}
+
+.header-div-1-img {
+    width: 75%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.div-1-img {
+    width: 75%;
+    margin-top: 50px;
+}
+
+.header-div-1 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-div-p2 {
@@ -100,20 +127,20 @@
     text-align: center;
     display: flex;
     align-items: center;
-    width: 80%;
-    margin: 1rem auto 2rem 4rem;
+    width: 75%;
+    margin: 1rem auto 2rem auto;
     padding-bottom: 1rem;
 }
 
 .main-h2 {
     display: flex;
-    width: 80%;
+    width: 75%;
     text-align: center;
     align-items: center;
     color: var(--c1);
     border-bottom: 0.15rem solid var(--c1);
     padding-bottom: 1rem;
-    margin: 0 auto 0 4rem;
+    margin: 0 auto;
 }
 
 .main-h2-experience {
