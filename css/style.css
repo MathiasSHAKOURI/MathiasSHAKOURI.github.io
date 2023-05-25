@@ -85,10 +85,11 @@
 }
 
 .div-1-img {
-    width: 85%;
-    align-self: center;
-    margin: auto;
+    width: 70%;
+    height: 75%;
     filter: drop-shadow(0 0 0.75rem black);
+    align-self: flex-end;
+    margin: 0 auto;
 }
 
 
