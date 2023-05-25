@@ -56,6 +56,9 @@
 .header-div-p2,
 .header-div-1-img {
     border: 0.15rem solid var(--c1);
+    /* box-shadow: 0 0 5px 1px black; */
+    /* box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7),
+    -5px 0 5px -5px rgba(0,0,0,0.7); */
 }
 
 .header-div-1-img {
@@ -87,7 +90,7 @@
 .div-1-img {
     width: 70%;
     height: 75%;
-    filter: drop-shadow(0 0 0.5rem black);
+    filter: drop-shadow(0 0 0.25rem black);
     align-self: flex-end;
     margin: 0 auto;
 }
@@ -185,6 +188,7 @@
     color: var(--c1);
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 75%;
     margin: 1rem auto 2rem auto;
@@ -207,7 +211,17 @@
 }
 
 .main-p {
-    display: flex;
     text-align: left;
 }
 
+b,
+u {
+    margin-right: auto;
+}
+
+.main-p-3 {
+    margin-right: auto;
+    margin-left: 4rem;
+    padding-left: 0;
+    text-align: left;
+}
