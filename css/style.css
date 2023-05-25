@@ -94,7 +94,7 @@
 
 
 .header-div-1 {
-    height: 40%;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -107,11 +107,11 @@
     border-top: none;
     height: fit-content;
     background-color: var(--c1);
-    height: 45%;
+    height: fit-content;
 }
 
 .header-p-2 {
-    height: 45%;
+    height: 50%;
     margin: 0 1rem;
     display: flex;
     text-align: left;
@@ -133,7 +133,12 @@
 }
 
 .header-h2-contact {
+    margin-top: 3rem;
     margin-bottom: 1rem;
+}
+
+.header-h2-profile {
+    margin-top: 3rem;
 }
 
 .div-header-p {
@@ -168,7 +173,7 @@
     margin: 0 1rem;
     display: flex;
     text-align: left;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 /* MAIN */
