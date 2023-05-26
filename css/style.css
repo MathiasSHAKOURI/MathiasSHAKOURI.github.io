@@ -110,7 +110,6 @@
     border-top: none;
     height: fit-content;
     background-color: var(--c1);
-    height: fit-content;
 }
 
 .header-p-2 {
@@ -136,7 +135,7 @@
 }
 
 .header-h2-contact {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -226,8 +225,22 @@ u {
 }
 
 .p-experience,
-.p-diploma {
+.p-diploma,
+.p-profile {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 1rem;
+}
+
+.main-p-4,
+.main-p-2 {
+    margin-top: 2rem;
+}
+
+.p-profile {
+    display: flex;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 1rem;
+    align-self: flex-start;
 }
