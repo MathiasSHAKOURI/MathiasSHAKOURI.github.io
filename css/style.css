@@ -271,8 +271,9 @@ h2.main-h2-hobbies {
     margin-bottom: 0.25rem;
 }
 
-.p-diploma-bottom {
-    margin-bottom: 0;
+.p-diploma-bottom,
+.p-skills-bottom {
+    margin-bottom: 2rem;
 }
 
 .p-experience-top {
