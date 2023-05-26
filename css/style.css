@@ -187,7 +187,7 @@
     color: var(--c1);
 }
 
-.main-p-2 {
+/* .main-p-2 {
     color: var(--c1);
     text-align: center;
     display: flex;
@@ -196,7 +196,7 @@
     width: 75%;
     margin: 1rem auto 2rem auto;
     padding-bottom: 1rem;
-}
+} */
 
 .main-h2 {
     display: flex;
@@ -232,14 +232,15 @@ u {
 .p-experience,
 .p-diploma,
 .p-profile,
-.p-hobbies {
+.p-hobbies,
+.p-skills {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
 
 .main-p-2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .p-profile {
@@ -248,4 +249,18 @@ u {
     margin-right: auto;
     margin-left: 1rem;
     align-self: flex-start;
+}
+
+.p-experience-text {
+    width: calc(75% - 1rem);
+    padding-left: 1rem;
+    margin: 0 auto;
+}
+
+.main-p-1 {
+    margin-bottom: 0;
+}
+
+h2.main-h2-hobbies {
+    text-transform: uppercase;
 }
