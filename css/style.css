@@ -257,7 +257,7 @@ u {
 }
 
 .main-p-1 {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     padding-bottom: 0;
 }
 
@@ -289,6 +289,7 @@ h2.main-h2-hobbies {
 .p-skills {
     display: flex;
     width: calc(75% / 2);
+    line-height: 1.5rem;
 }
 
 .main-p-4 {
@@ -302,6 +303,7 @@ h2.main-h2-hobbies {
     display: flex;
     width: calc(75% / 2);
     margin-top: 2rem;
+    line-height: 1.5rem;
 }
 
 .main-p-3 {
@@ -318,5 +320,13 @@ h2.main-h2-hobbies {
 }
 
 .p-diploma-top {
+    margin-top: 2rem;
+}
+
+.p-experience-text {
+    line-height: 1.5rem;
+}
+
+.p-experience-top {
     margin-top: 2rem;
 }
