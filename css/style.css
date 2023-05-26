@@ -264,3 +264,8 @@ u {
 h2.main-h2-hobbies {
     text-transform: uppercase;
 }
+
+.p-skills,
+.p-hobbies {
+    margin-bottom: 0.25rem;
+}
