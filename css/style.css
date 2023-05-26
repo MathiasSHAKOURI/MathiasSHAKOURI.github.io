@@ -180,9 +180,14 @@
 
 /* MAIN */
 
-
+.main-p,
 .main-p-2,
+.main-p-3,
 .main-p-4 {
+    color: var(--c1);
+}
+
+.main-p-2 {
     color: var(--c1);
     text-align: center;
     display: flex;
@@ -226,13 +231,13 @@ u {
 
 .p-experience,
 .p-diploma,
-.p-profile {
+.p-profile,
+.p-hobbies {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 1rem;
 }
 
-.main-p-4,
 .main-p-2 {
     margin-top: 2rem;
 }
