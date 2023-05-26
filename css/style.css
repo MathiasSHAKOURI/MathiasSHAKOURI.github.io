@@ -181,9 +181,8 @@
 
 /* MAIN */
 
-.main-p-1,
+
 .main-p-2,
-.main-p-3,
 .main-p-4 {
     color: var(--c1);
     text-align: center;
@@ -221,7 +220,14 @@ u {
 
 .main-p-3 {
     margin-right: auto;
-    margin-left: 4rem;
     padding-left: 0;
+    margin-left: 3em;
     text-align: left;
+}
+
+.p-experience,
+.p-diploma {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
