@@ -141,6 +141,7 @@
 
 .header-h2-profile {
     margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 .div-header-p {
@@ -231,9 +232,7 @@ u {
 
 .p-experience,
 .p-diploma,
-.p-profile,
-.p-hobbies,
-.p-skills {
+.p-profile {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 1rem;
@@ -278,4 +277,46 @@ h2.main-h2-hobbies {
 
 .p-experience-top {
     margin-top: 1rem;
+}
+
+.main-p-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-skills {
+    display: flex;
+    width: calc(75% / 2);
+}
+
+.main-p-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-hobbies {
+    display: flex;
+    width: calc(75% / 2);
+    margin-top: 2rem;
+}
+
+.main-p-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.p-diploma {
+    width: 100%;
+}
+
+.p-diploma-top {
+    margin-top: 2rem;
 }
