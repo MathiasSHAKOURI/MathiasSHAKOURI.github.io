@@ -70,7 +70,8 @@
     width: 75%;
     align-self: center;
     text-align: left;
-    margin-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -123,6 +124,9 @@
     display: flex;
     text-align: left;
     margin: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 .header-h2 {
@@ -131,7 +135,8 @@
     border-bottom: 0.15rem solid var(--c2);
     padding-bottom: 1rem;
     text-align: left;
-    margin-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-h2-contact {
@@ -174,9 +179,12 @@
 .email,
 .adress {
     margin: 0 1rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     text-align: left;
     padding: 1rem 0;
+    width: 75%;
 }
 
 .header-div-1 {
@@ -254,7 +262,7 @@ u {
     display: flex;
     text-align: left;
     margin-right: auto;
-    margin-left: 1rem;
+    margin-left: auto;
     align-self: flex-start;
 }
 
