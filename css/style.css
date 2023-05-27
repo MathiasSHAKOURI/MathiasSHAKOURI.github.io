@@ -84,7 +84,7 @@
     width: 75%;
     height: 50%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 6rem;
     display: flex;
 }
 
@@ -98,7 +98,7 @@
 
 
 .header-div-1 {
-    height: 800px;
+    height: 1128.5px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -187,12 +187,17 @@
     width: 75%;
 }
 
-.header-div-1 {
+/* .header-div-1 {
     margin-top: 2rem;
-}
+} */
 
 .header-div-p2 {
-    height: 1100px;
+    height: 1128.5px;
+}
+
+.div_left_bottom {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* MAIN */
