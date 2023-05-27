@@ -113,7 +113,7 @@
 }
 
 .header-p-2 {
-    height: 50%;
+    /* height: 50%; */
     margin: 0 1rem;
     display: flex;
     text-align: left;
@@ -179,6 +179,14 @@
     padding: 1rem 0;
 }
 
+.header-div-1 {
+    margin-top: 2rem;
+}
+
+.header-div-p2 {
+    height: 1100px;
+}
+
 /* MAIN */
 
 .main-p,
@@ -211,7 +219,7 @@
 }
 
 .main-h2-experience {
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .main-p {
@@ -329,4 +337,8 @@ h2.main-h2-hobbies {
 
 .p-experience-top {
     margin-top: 2rem;
+}
+
+main {
+    padding-bottom: 5rem;
 }
