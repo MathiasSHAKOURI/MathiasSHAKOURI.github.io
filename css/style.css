@@ -352,7 +352,7 @@ h2.main-h2-hobbies {
     margin-top: 2rem;
 }
 
-.body-main,
-.body-header {
-    margin-bottom: 5rem;
+.main-p-4,
+.header-div-p2 {
+    padding-bottom: 5rem;
 }
