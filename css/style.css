@@ -10,6 +10,7 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
+    background-color: var(--c2);
 }
 
 .body-header,
@@ -25,12 +26,14 @@
     width: 35%;
     background-color: var(--c2);
     padding-left: 5rem;
+    height: 2000px;
 }
 
 .body-main {
     width: 65%;
     background-color: var(--c2);
     padding-right: 5rem;
+    height: 2000px;
 }
 
 /* HEADER */
@@ -98,7 +101,7 @@
 
 
 .header-div-1 {
-    height: 1128.5px;
+    height: 50%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -109,7 +112,7 @@
     flex-direction: column;
     margin-top: 0;
     border-top: none;
-    height: fit-content;
+    height: 50%;
     background-color: var(--c1);
 }
 
