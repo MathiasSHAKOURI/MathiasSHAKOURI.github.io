@@ -15,26 +15,23 @@
 
 .body-header,
 .body-main {
-    /* height: calc(100vh / 3); */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-}
-
-.body-header {
-    width: 35%;
     background-color: var(--c2);
     padding-left: 5rem;
     height: 2000px;
 }
 
+.body-header {
+    width: 35%;
+}
+
 .body-main {
     width: 65%;
-    background-color: var(--c2);
-    padding-right: 5rem;
-    height: 2000px;
 }
+
+
 
 /* HEADER */
 
@@ -355,6 +352,7 @@ h2.main-h2-hobbies {
     margin-top: 2rem;
 }
 
-main {
-    padding-bottom: 5rem;
+.body-main,
+.body-header {
+    margin-bottom: 5rem;
 }
